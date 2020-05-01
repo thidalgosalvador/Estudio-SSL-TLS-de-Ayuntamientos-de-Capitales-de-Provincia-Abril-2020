@@ -28,7 +28,7 @@ Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales 
 
 ### Webs y Sedes Electrónicas bajo HTTPS
 #### Webs institucionales
-De las 52 capitales de provincia
+De las 52 capitales de provincia,seis de ellas, en su web institucional, no ofrecen los contenidos bajo HTTPS.
 | Uso de HTTPS   | Webs | %     |
 |---------------:|-----:|------:|
 | Configurado    | 46   | 88,5% |
