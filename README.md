@@ -49,6 +49,34 @@ La firma del servidor (en inglés, Server Signature) es la identidad pública de
 
 #### Entidades Emisoras (CA’s)
 
+| Emisor CA           | web | %     |
+|--------------------:|----:|------:|
+| AC Camerfirma S\.A  | 13  | 25,0% |
+| DigiCert Inc        | 10  | 19,2% |
+| FNMT\-RCM           | 7   | 13,5% |
+| Contenido bajo HTTP | 6   | 11,5% |
+| Let's Encrypt       | 4   | 7,7%  |
+| ACCV                | 3   | 5,8%  |
+| IZENPE S\.A\.       | 3   | 5,8%  |
+| GlobalSign nv\-sa   | 2   | 3,8%  |
+| Sectigo Limited     | 2   | 3,8%  |
+| CloudFlare, Inc\.   | 1   | 1,9%  |
+| COMODO CA Limited   | 1   | 1,9%  |
+
+En las sedes electrónicas de los 52 ayuntamientos, esta es la lista de Prestadores de Servicios de Confianza (PSC) que emiten los certificados digitales utilizados para securizar el servicio.
+| Emisor CA           | Sede Elec\. | %     |
+|--------------------:|------------:|------:|
+| AC Camerfirma S\.A  | 21          | 40,4% |
+| FNMT\-RCM           | 10          | 19,2% |
+| DigiCert Inc        | 6           | 11,5% |
+| ACCV                | 5           | 9,6%  |
+| IZENPE S\.A\.       | 3           | 5,8%  |
+| GlobalSign nv\-sa   | 2           | 3,8%  |
+| Let's Encrypt       | 2           | 3,8%  |
+| Firmaprofesional    | 1           | 1,9%  |
+| GoDaddy\.com, Inc\. | 1           | 1,9%  |
+| Sectigo   | 1           | 1,9%  |
+
 
 #### Tamaño de Clave
 
