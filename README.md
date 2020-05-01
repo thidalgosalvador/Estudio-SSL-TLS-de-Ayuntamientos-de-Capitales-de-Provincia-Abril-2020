@@ -26,10 +26,16 @@ Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales 
 |  Región de Murcia           | 1     |
 
 
-### Sedes electrónicas bajo HTTPS
+### Webs y Sedes Electrónicas bajo HTTPS
+#### Webs institucionales de los ayuntamientos
+| Uso de HTTPS   | Webs | %     |
+|---------------:|-----:|------:|
+| Configurado    | 46   | 88,5% |
+| No configurado | 6    | 11,5% |
 
 
 ### Server Signature
+La firma del servidor (en inglés, Server Signature) es la identidad pública del servidor web. Contiene información sensible que -en general- como buena práctica de seguridad se suele desactivar para evitar la divulgación de las versiones de software utilizadas.
 
 
 ### Certificados digitales
