@@ -3,7 +3,7 @@ Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales 
 
 ### Introducción
 
-| Comunidad autónoma          | Aytos |
+| Comunidad autónoma          | Capitales |
 |----------------------------:|------:|
 |  Andalucía                  | 8     |
 |  Aragón                     | 3     |
