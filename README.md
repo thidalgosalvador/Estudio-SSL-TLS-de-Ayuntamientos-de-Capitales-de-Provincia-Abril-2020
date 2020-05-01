@@ -1,6 +1,50 @@
 # Estudio SSL-TLS de Ayuntamientos de Capitales de Provincia - Abril-2020
 Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales de Provincia de España. Abril 2020
 
+### Introducción
+
+| Comunidad autónoma          | Aytos |
+|----------------------------:|------:|
+|  Andalucía                  | 8     |
+|  Aragón                     | 3     |
+|  Canarias                   | 2     |
+|  Cantabria                  | 1     |
+|  Castilla y León            | 9     |
+|  Castilla\-La Mancha        | 5     |
+|  Cataluña                   | 4     |
+|  Ceuta                      | 1     |
+|  Comunidad de Madrid        | 1     |
+|  Comunidad Foral de Navarra | 1     |
+|  Comunidad Valenciana       | 3     |
+|  Extremadura                | 2     |
+|  Galicia                    | 4     |
+|  Islas Baleares             | 1     |
+|  La Rioja                   | 1     |
+|  Melilla                    | 1     |
+|  País Vasco                 | 3     |
+|  Principado de Asturias     | 1     |
+|  Región de Murcia           | 1     |
+
+
+### Sedes electrónicas bajo HTTPS
+
+
+### Server Signature
+
+
+### Certificados digitales
+
+#### Entidades Emisoras (CA’s)
+
+
+#### Tamaño de Clave
+
+
+#### Registro CAA
+
+
+#### Cadena de confianza
+
 
 ### Anexo 1 - Webs y Sedes electrónicas de los ayuntamientos de Capitales de Pronvicia.
 
