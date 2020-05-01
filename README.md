@@ -5,7 +5,7 @@ Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales 
 ### Anexo 1 - Webs y Sedes electrónicas de los ayuntamientos de Capitales de Pronvicia.
 
 | Comunidad autónoma          | Ciudad                     | Web                          | Sede electronica                           |
-|-----------------------------|----------------------------|------------------------------|--------------------------------------------|
+|----------------------------:|---------------------------:|-----------------------------:|-------------------------------------------:|
 |  Andalucía                  | Almería                    | www\.almeriaciudad\.es       | sede\.aytoalmeria\.es                      |
 |  Andalucía                  | Cádiz                      | institucional\.cadiz\.es     | tramita\.cadiz\.es                         |
 |  Andalucía                  | Córdoba                    | www\.cordoba\.es             | sede\.cordoba\.es                          |
