@@ -47,6 +47,14 @@ Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transp
 | Configurado    | 7    | 15,2% | 9     | 17,3% |
 | No configurado | 39   | 84,8% | 43    | 82,7% |
 
+### HTTP/2.0
+HTTP/2 es un protocolo que se ofrece tan solo bajo HTTPS y aporta una mejora significativa en eficiencia, velocidad y seguridad. Además, es compatible con la mayoría de los [navegadores web](https://caniuse.com/#search=http2) modernos. 
+| Protocolo | Webs | %      | Sedes Elec\. | %      |
+|----------:|-----:|-------:|-------------:|-------:|
+| HTTP/1\.1 | 46   | 100,0% | 52           | 100,0% |
+| HTTP/2\.0 | 10   | 21,7%  | 2            | 3,8%   |
+El 21,7% de las webs institucionales ofrecen HTTP/2, cifra que cae al 3,8% (tan solo dos) en las sedes electrónicas.
+
 ### Server Signature
 La firma del servidor (en inglés, Server Signature) es la identidad pública del servidor web. Contiene información sensible que -en general- como buena práctica de seguridad se suele desactivar para evitar la divulgación de las versiones de software utilizadas.
 | Server Signature     | Webs | %     | sedes | %     |
