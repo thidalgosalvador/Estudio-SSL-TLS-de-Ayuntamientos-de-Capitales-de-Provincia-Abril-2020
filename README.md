@@ -34,10 +34,14 @@ De las 52 capitales de provincia,seis de ellas, en su web institucional, no ofre
 | Configurado    | 46   | 88,5% |52          | 100,0% |
 | No configurado | 6    | 11,5% |0|0,0%|
 
-
+Hay añgunas webs institucionales y sedes electrónicas que no redireccionan directamente a contenido HTTPS cuando se invocan bajo HTTP.
+| Redireccion | Webs | Sedes |
+|------------:|-----:|------:|
+| Código 200         | 9    | 1     |
+| Código 30x         | 37   | 51    |
 
 Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transport Security (HSTS) es una política de seguridad web que permite a un servidor web imponer/forzar el uso de TLS para los User-Agent compatibles, como -por ejemplo- un navegador web. El HSTS permite una implementación más efectiva del TLS asegurando que toda la comunicación se lleve a cabo sobre una capa de transporte segura en el lado del cliente. En particular, el HSTS mitiga las variantes de los ataques de "hombre en el medio" (MiTM) en los que el TLS puede ser eliminado de las comunicaciones con un servidor, dejando al usuario vulnerable a mayores riesgos.
-| HSTS           | Webs | Webs  | Sedes | %     |
+| HSTS           | Webs | %  | Sedes | %     |
 |---------------:|-----:|------:|------:|------:|
 | Configurado    | 7    | 15,2% | 9     | 17,3% |
 | No configurado | 39   | 84,8% | 43    | 82,7% |
@@ -46,6 +50,24 @@ Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transp
 
 ### Server Signature
 La firma del servidor (en inglés, Server Signature) es la identidad pública del servidor web. Contiene información sensible que -en general- como buena práctica de seguridad se suele desactivar para evitar la divulgación de las versiones de software utilizadas.
+| Server Signature     | Webs | %     | sedes | %     |
+|----------------------|------|-------|-------|-------|
+| Apache v2\.2 / v2\.4 | 19   | 41,3% | 17    | 32,7% |
+| Apache\-Coyote/1\.1  | 1    | 2,2%  | 8     | 15,4% |
+| nginx                | 5    | 10,9% | 8     | 15,4% |
+| Microsoft\-IIS/7\.5  | 1    | 2,2%  | 5     | 9,6%  |
+| No especificado      | 8    | 17,4% | 5     | 9,6%  |
+| Microsoft\-IIS/8\.5  | 2    | 4,3%  | 2     | 3,8%  |
+| Bilbao WebServer     | 1    | 2,2%  | 1     | 1,9%  |
+| BIP                  | 1    | 2,2%  | 1     | 1,9%  |
+| inter@CEMI           | 1    | 2,2%  | 1     | 1,9%  |
+| Microsoft\-IIS/10\.0 | 0    | 0,0%  | 1     | 1,9%  |
+| Microsoft\-IIS/6\.0  | 2    | 4,3%  | 1     | 1,9%  |
+| OpenCms/7\.5\.2      | 1    | 2,2%  | 1     | 1,9%  |
+| WildFly/9            | 1    | 2,2%  | 1     | 1,9%  |
+| AkamaiGHost          | 1    | 2,2%  | 0     | 0,0%  |
+| cloudflare           | 1    | 2,2%  | 0     | 0,0%  |
+| Lotus\-Domino        | 1    | 2,2%  | 0     | 0,0%  |
 
 
 ### Certificados digitales
