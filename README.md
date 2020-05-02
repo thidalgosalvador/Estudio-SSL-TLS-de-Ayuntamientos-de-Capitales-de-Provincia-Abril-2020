@@ -1,8 +1,8 @@
 # Estudio SSL-TLS de Ayuntamientos de Capitales de Provincia - Abril-2020
-Estudio SSL/TLS de la web oficial y sede electrónica de los Aytos. Capitales de Provincia de España. Abril 2020
+Estudio SSL/TLS de la web oficial y sede electrónica de los ayuntamientos de las capitales de provincia de España. Abril 2020.
 
 ### Introducción
-El presente estudio presenta un estado básico de la seguridad de las webs institucionales y sedes electrónicas de las capitales de provincia de España. Se han incluido en el mismo las ciudades autónomas de Ceuta y Melilla. El estudio -centrado en configuración de protocolos de comunicaciones, cifrados utilizados y otros parámetros- se plantea desde un punto de vista general, meramente estadístico, sin entrar en el detalle de configuraciones particulares. Para profundizar en la seguridad aplicable a los servicios electrónicos de las Administraciones Públicas se recomienda visitar la plataforma [EVENTS](https://www.ccn-cert.cni.es/evens/), que recopila todos los recursos del Esquema Nacional de Seguridad en un único entorno.
+El presente estudio presenta un estado básico de la seguridad de las webs institucionales y sedes electrónicas de las capitales de provincia de España. Se han incluido en el mismo las ciudades autónomas de Ceuta y Melilla. Focalizado en configuración de protocolos de comunicaciones, cifrados utilizados y otros parámetros, se plantea desde un punto de vista general, meramente estadístico, sin entrar en el detalle de configuraciones particulares. Para profundizar en la seguridad aplicable a los servicios electrónicos de las Administraciones Públicas -y su posible mejora- se recomienda visitar la plataforma [EVENTS](https://www.ccn-cert.cni.es/evens/), que recopila todos los recursos del Esquema Nacional de Seguridad en un único entorno.
 
 | Comunidad autónoma          | Capitales |
 |----------------------------:|------:|
@@ -36,6 +36,7 @@ De las 52 capitales de provincia,seis de ellas, en su web institucional, no ofre
 | No configurado | 6    | 11,5% |0|0,0%|
 
 Hay añgunas webs institucionales y sedes electrónicas que no redireccionan directamente a contenido HTTPS cuando se invocan bajo HTTP.
+
 | Redireccion | Webs | Sedes |
 |------------:|-----:|------:|
 | Código 200         | 9    | 1     |
@@ -53,6 +54,7 @@ HTTP/2 es un protocolo que se ofrece tan solo bajo HTTPS y aporta una mejora sig
 |----------:|-----:|-------:|-------------:|-------:|
 | HTTP/1\.1 | 46   | 100,0% | 52           | 100,0% |
 | HTTP/2\.0 | 10   | 21,7%  | 2            | 3,8%   |
+
 El 21,7% de las webs institucionales ofrecen HTTP/2, cifra que cae al 3,8% (tan solo dos) en las sedes electrónicas.
 
 ### Server Signature
@@ -222,7 +224,7 @@ Los 10 ciphersuite más utilizados de forma general sería:
 Para la mejora de la seguridad de sitios webs, existen una serie de cabeceras de respuesta HTTP relacionadas con la seguridad que aportan niveles adicionales de protección. Una práctica recomendada consiste en implementar este tipo de cabeceras, siempre que sea posible. Servicios online gratuitos como [Security Headers](https://securityheaders.com/) proporciona un mecanismo para evaluar el estado actual del servidor, y desplegar aquellas cabeceras pendientes.
 
 | Grado | Webs | %     | Sedes Elec\. | %     |
-|-------|------|-------|--------------|-------|
+|------:|-----:|------:|-------------:|------:|
 | A     | 3    | 6,5%  | 2            | 3,8%  |
 | B     | 1    | 2,2%  | \-           | 0,0%  |
 | C     | 1    | 2,2%  | 2            | 3,8%  |
@@ -232,7 +234,7 @@ Para la mejora de la seguridad de sitios webs, existen una serie de cabeceras de
 
 Las cabeceras de seguridad más utilizadas se muestran en la siguiente tabla:
 | Cabecera                    | Webs | Sedes |
-|-----------------------------|------|-------|
+|----------------------------:|-----:|------:|
 | X\-Frame\-Options           | 21   | 11    |
 | X\-Content\-Type\-Options   | 20   | 8     |
 | X\-XSS\-Protection          | 13   | 1     |
@@ -258,7 +260,7 @@ Para la obtención de los datos necesarios para realizar el estudio se han utili
 - OWASP TLS - https://cheatsheetseries.owasp.org/cheatsheets/TLS_Cipher_String_Cheat_Sheet.html
 
 
-### Anexo 1 - Webs y Sedes electrónicas de los ayuntamientos de Capitales de Pronvicia.
+### Anexo 1 - Webs y Sedes electrónicas de los ayuntamientos de Capitales de Provincia.
 
 | Comunidad autónoma          | Ciudad                     | Web                          | Sede electronica                           |
 |----------------------------:|---------------------------:|-----------------------------:|-------------------------------------------:|
