@@ -29,16 +29,19 @@ Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales 
 ### Webs y Sedes Electrónicas bajo HTTPS
 #### Webs institucionales
 De las 52 capitales de provincia,seis de ellas, en su web institucional, no ofrecen los contenidos bajo HTTPS.
-| Uso de HTTPS   | Webs | %     |
-|---------------:|-----:|------:|
-| Configurado    | 46   | 88,5% |
-| No configurado | 6    | 11,5% |
+| Uso de HTTPS   | Webs | %     | Sede Elec\. | %      |
+|---------------:|-----:|------:|------------:|-------:|
+| Configurado    | 46   | 88,5% |52          | 100,0% |
+| No configurado | 6    | 11,5% |0|0,0%|
 
-#### Sede Electrónicas
-En el caso de las sedes electrónicas, el 100% se ofrecen bajo HTTPS.
-| Uso de HTTPS | Sede Elec\. | %      |
-|--------------|-------------|--------|
-| Configurado  | 52          | 100,0% |
+
+
+Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transport Security (HSTS) es una política de seguridad web que permite a un servidor web imponer/forzar el uso de TLS para los User-Agent compatibles, como -por ejemplo- un navegador web. El HSTS permite una implementación más efectiva del TLS asegurando que toda la comunicación se lleve a cabo sobre una capa de transporte segura en el lado del cliente. En particular, el HSTS mitiga las variantes de los ataques de "hombre en el medio" (MiTM) en los que el TLS puede ser eliminado de las comunicaciones con un servidor, dejando al usuario vulnerable a mayores riesgos.
+| HSTS           | Webs | Webs  | Sedes | %     |
+|---------------:|-----:|------:|------:|------:|
+| Configurado    | 7    | 15,2% | 9     | 17,3% |
+| No configurado | 39   | 84,8% | 43    | 82,7% |
+
 
 
 ### Server Signature
