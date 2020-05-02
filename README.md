@@ -2,6 +2,7 @@
 Estudio SSL/TLS de la web oficial y sede electrónica de los Aytos. Capitales de Provincia de España. Abril 2020
 
 ### Introducción
+El presente estudio presenta un estado básico de la seguridad de las webs institucionales y sedes electrónicas de las capitales de provincia de España. Se han incluido en el mismo las ciudades autónomas de Ceuta y Melilla. El estudio -centrado en configuración de protocolos de comunicaciones, cifrados utilizados y otros parámetros- se plantea desde un punto de vista general, meramente estadístico, sin entrar en el detalle de configuraciones particulares. Para profundizar en la seguridad aplicable a los servicios electrónicos de las Administraciones Públicas se recomienda visitar la plataforma [EVENTS](https://www.ccn-cert.cni.es/evens/), que recopila todos los recursos del Esquema Nacional de Seguridad en un único entorno.
 
 | Comunidad autónoma          | Capitales |
 |----------------------------:|------:|
@@ -12,7 +13,7 @@ Estudio SSL/TLS de la web oficial y sede electrónica de los Aytos. Capitales de
 |  Castilla y León            | 9     |
 |  Castilla\-La Mancha        | 5     |
 |  Cataluña                   | 4     |
-|  Ceuta                      | 1     |
+|  Ceuta  (\*)                | 1     |
 |  Comunidad de Madrid        | 1     |
 |  Comunidad Foral de Navarra | 1     |
 |  Comunidad Valenciana       | 3     |
@@ -20,14 +21,14 @@ Estudio SSL/TLS de la web oficial y sede electrónica de los Aytos. Capitales de
 |  Galicia                    | 4     |
 |  Islas Baleares             | 1     |
 |  La Rioja                   | 1     |
-|  Melilla                    | 1     |
+|  Melilla  (\*)              | 1     |
 |  País Vasco                 | 3     |
 |  Principado de Asturias     | 1     |
 |  Región de Murcia           | 1     |
 
+(\*) = Ciudad Autónoma
 
 ### Webs y Sedes Electrónicas bajo HTTPS
-#### Webs institucionales
 De las 52 capitales de provincia,seis de ellas, en su web institucional, no ofrecen los contenidos bajo HTTPS.
 | Uso de HTTPS   | Webs | %     | Sede Elec\. | %      |
 |---------------:|-----:|------:|------------:|-------:|
@@ -45,8 +46,6 @@ Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transp
 |---------------:|-----:|------:|------:|------:|
 | Configurado    | 7    | 15,2% | 9     | 17,3% |
 | No configurado | 39   | 84,8% | 43    | 82,7% |
-
-
 
 ### Server Signature
 La firma del servidor (en inglés, Server Signature) es la identidad pública del servidor web. Contiene información sensible que -en general- como buena práctica de seguridad se suele desactivar para evitar la divulgación de las versiones de software utilizadas.
