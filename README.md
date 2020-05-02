@@ -1,5 +1,5 @@
 # Estudio SSL-TLS de Ayuntamientos de Capitales de Provincia - Abril-2020
-Estudio SSL/TLS de las web oficial y sedes electrónica de los Aytos. Capitales de Provincia de España. Abril 2020
+Estudio SSL/TLS de la web oficial y sede electrónica de los Aytos. Capitales de Provincia de España. Abril 2020
 
 ### Introducción
 
@@ -59,7 +59,7 @@ La firma del servidor (en inglés, Server Signature) es la identidad pública de
 | No especificado      | 8    | 17,4% | 5     | 9,6%  |
 | Microsoft\-IIS/8\.5  | 2    | 4,3%  | 2     | 3,8%  |
 | Bilbao WebServer     | 1    | 2,2%  | 1     | 1,9%  |
-| BIP                  | 1    | 2,2%  | 1     | 1,9%  |
+| Big IP               | 1    | 2,2%  | 1     | 1,9%  |
 | inter@CEMI           | 1    | 2,2%  | 1     | 1,9%  |
 | Microsoft\-IIS/10\.0 | 0    | 0,0%  | 1     | 1,9%  |
 | Microsoft\-IIS/6\.0  | 2    | 4,3%  | 1     | 1,9%  |
