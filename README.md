@@ -48,6 +48,15 @@ Así mismo, llama la atención la baja implantación de HSTS. HTTP Strict Transp
 | Configurado    | 7    | 15,2% | 9     | 17,3% |
 | No configurado | 39   | 84,8% | 43    | 82,7% |
 
+####Nomenclatura
+Respecto a las sedes electrónicas, como anécdota, la estructura de los nombres siguen unas pautas definidas. La más usada se corresponde con la forma (sede|seu).* con un total de 28 sedes.
+| Nomenclatura                             | Sedes |
+|-----------------------------------------:|------:|
+| sede\.\* \|seu\.\*                       | 28    |
+| otros                                    | 12    |
+| sedeelectronica\.\* \|seuelectronica\.\* | 9     |
+| \*\.sedelectronica\.es                   | 3     |
+
 ### HTTP/2.0
 HTTP/2 es un protocolo que se ofrece tan solo bajo HTTPS y aporta una mejora significativa en eficiencia, velocidad y seguridad. Además, es compatible con la mayoría de los [navegadores web](https://caniuse.com/#search=http2) modernos. 
 | Protocolo | Webs | %      | Sedes Elec\. | %      |
