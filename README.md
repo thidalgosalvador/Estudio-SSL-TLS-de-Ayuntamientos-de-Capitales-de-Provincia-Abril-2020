@@ -48,6 +48,7 @@ La firma del servidor (en inglés, Server Signature) es la identidad pública de
 ### Certificados digitales
 
 #### Entidades Emisoras (CA’s)
+Respecto a los PSCs (Prestadores de Servicios de Confianzan) que emiten certificados para las webs y sedes, la entidad Camerfirma -seguida de Digicert y FNMT- lideran esta lista, concentrando entre las tres entidades entre el 50-60%.
 
 | Emisor CA           | web | %     |
 |--------------------:|----:|------:|
@@ -79,6 +80,12 @@ En las sedes electrónicas de los 52 ayuntamientos, esta es la lista de Prestado
 
 
 #### Tamaño de Clave
+Más del 90% de ayuntamientos, tanto para su web institucional como para su sede electrónica, apuestan por un certificado RSA de 2048 bits. Tan solo una institución utiliza un certificado con algoritmos de Curva Eliptica (ECDSA), mientras que un total de ocho (3 en web y 5 en Sede) utilizan una tamaño de clave de 4096 bits.
+| Key Size      | web | %     | Sede Elec. | %     |
+|--------------:|----:|------:|-----:|------:|
+| RSA 2048 bits | 42  | 91,3% | 47   | 90,4% |
+| RSA 4096 bits | 3   | 6,5%  | 5    | 9,6%  |
+| ECDSA\_P256   | 1   | 2,2%  | \-   | 0%   |
 
 
 #### Registro CAA
